@@ -20,7 +20,7 @@ public class Q3_medium {
 
 class Solution3{
 	public static int lengthOfLongestSubstring(String s) {
-		int i = 0, j = 0, max = 0;
+		int i = 0, j = 0, max = 0; // i is for marking where to start deleting. 
 	    Set<Character> set = new HashSet<>();
 	    
 	    while (j < s.length()) {
