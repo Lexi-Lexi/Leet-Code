@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.TreeMap;
-
 public class Q4_Hard {
 
 	public static void main(String[] args) {
@@ -12,8 +10,6 @@ public class Q4_Hard {
 		int[] l1 = new int[] {50};
 		int[] l2 = new int[] {5, 8, 10, 20};
 		System.out.println(Solution4.findMedianSortedArrays(l1, l2));
-		
-		
 		
 
 	}
@@ -44,8 +40,8 @@ class Solution4{
 	    }
 
 	    // the median is the average of two numbers
-	    if ((m+n)%2 == 0) {
-	        return (double)(med1+med2)/2;
+	    if ((m + n) % 2 == 0) {
+	        return (double)(med1 + med2) / 2;
 	    }
 
 	    return med2;
