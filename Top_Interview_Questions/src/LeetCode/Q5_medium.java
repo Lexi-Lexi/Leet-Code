@@ -5,9 +5,9 @@ public class Q5_medium {
 	/* Given a string s, return the longest palindromic substring in s. */
 	public static void main(String[] args) {
 		System.out.println(Solution5.longestPalindrome("aaaaahth"));
-
+		System.out.println(0/2);
 	}
-
+                                        
 }
 
 class Solution5 {
@@ -24,7 +24,7 @@ class Solution5 {
 			int l2 = calculate(s, i, i + 1); // even length
 			int length = Math.max(l1, l2);
 			
-			if (length > end - start) {
+			if (length > end - start) { // update
 				start = i - (length - 1) / 2;
 				end = i + length / 2;
 			}
