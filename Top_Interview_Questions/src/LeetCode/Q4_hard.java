@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class Q4_Hard {
+public class Q4_hard {
 
 	public static void main(String[] args) {
 		/* Given two sorted arrays nums1 and nums2 of size m and n respectively,

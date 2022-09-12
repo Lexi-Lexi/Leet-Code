@@ -1,20 +1,10 @@
 package LeetCode;
 
-import java.math.BigInteger;
-
 public class Q8_medium {
 	/* Implement the myAtoi(string s) function, which converts a string
 	 * to a 32-bit signed integer (similar to C/C++'s atoi function). */
 	public static void main(String[] args) {
 
-		System.out.println("1:" + Solution8.myAtoi("42")); // 42 
-		System.out.println("2:" + Solution8.myAtoi("   -42")); // -42
-		System.out.println("3:" + Solution8.myAtoi("4193 with words")); // 4193
-		System.out.println("4:" + Solution8.myAtoi("   w 244 1 5")); // 0
-		System.out.println("5:" + Solution8.myAtoi("+-12")); // 0
-		System.out.println("6:" + Solution8.myAtoi("3.123")); // 3
-		System.out.println("7:" + Solution8.myAtoi("   +0 123")); // 0 
-		System.out.println("8:" + Solution8.myAtoi("20000000000000000000"));
 	}
 
 }
