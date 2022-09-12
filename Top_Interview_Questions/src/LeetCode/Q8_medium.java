@@ -13,7 +13,7 @@ public class Q8_medium {
 		System.out.println("4:" + Solution8.myAtoi("   w 244 1 5")); // 0
 		System.out.println("5:" + Solution8.myAtoi("+-12")); // 0
 		System.out.println("6:" + Solution8.myAtoi("3.123")); // 3
-		System.out.println("7:" + Solution8.myAtoi("   +0 123")); // 0 여야
+		System.out.println("7:" + Solution8.myAtoi("   +0 123")); // 0 
 		System.out.println("8:" + Solution8.myAtoi("20000000000000000000"));
 	}
 
