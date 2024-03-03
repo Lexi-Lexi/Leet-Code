@@ -1,3 +1,0 @@
-module BookPractice {
-	exports LeetCode;
-}
