@@ -27,3 +27,5 @@
 
 # Ignore .project
 */.project
+
+*/.metadata
