@@ -1,4 +1,4 @@
-package book_practice;
+package LeetCode;
 import java.util.Scanner;
 
 
