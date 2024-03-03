@@ -28,4 +28,8 @@
 # Ignore .project
 */.project
 
+<<<<<<< HEAD
 */.metadata
+=======
+*/.metadata
+>>>>>>> 2d8996d (New folder added for problems extracted from a book.)

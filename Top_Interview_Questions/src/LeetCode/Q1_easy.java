@@ -24,7 +24,7 @@ public class Q1_easy {
 // implemented code
 class Solution1 {
 	public static int[] twoSum(int[] nums, int target) {
-		/* soltuion 1: slow, easy
+		/* solution 1: slow, easy
 		int[] indices = new int[2];
 		for (int i = 0; i < nums.length - 1; i++) {
 			for (int j = 1; j < nums.length; j++) {
@@ -36,7 +36,7 @@ class Solution1 {
 		}
 		return indices; */
 		
-		/* soltuion 2: fast, using hash map */
+		/* solution 2: fast, using hash map */
 		int[] result = new int[2];
     	HashMap<Integer, Integer> hash = new HashMap<Integer, Integer>();
         
